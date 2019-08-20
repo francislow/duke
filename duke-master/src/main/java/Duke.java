@@ -4,6 +4,9 @@ public class Duke {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // Greet user
+        System.out.println("Hello! I'm Duke\nWhat can I do for you?");
+
         // Ask initial user input
         String userinput = scanner.nextLine();
 
