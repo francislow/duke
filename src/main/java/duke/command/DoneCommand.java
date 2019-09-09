@@ -1,6 +1,6 @@
 package duke.command;
 
-import duke.Task;
+import duke.task.Task;
 import duke.TaskList;
 
 public class DoneCommand extends Command {

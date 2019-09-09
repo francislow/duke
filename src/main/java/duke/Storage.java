@@ -2,6 +2,7 @@ package duke;
 
 import duke.task.Deadline;
 import duke.task.Event;
+import duke.task.Task;
 import duke.task.Todo;
 
 import java.io.File;
@@ -58,6 +59,8 @@ public class Storage {
 
     /**
      * Save stored tasks into text file
+     *
+     * @param tasks Tasklist reference where user current tasks is to be stored in
      */
     public static void save(TaskList tasks) {
         try {

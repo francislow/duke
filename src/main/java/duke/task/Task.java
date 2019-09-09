@@ -1,4 +1,4 @@
-package duke;
+package duke.task;
 
 /**
  * Represents a task that user adds to their daily task list
@@ -18,7 +18,7 @@ public class Task {
     }
 
     public String getStatusIcon() {
-        return (isDone ? "1" : "0");  //return 1 for done or 0 for not done symbols
+        return (isDone ? "1" : "0");
     }
 
     public String getName() {

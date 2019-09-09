@@ -1,11 +1,9 @@
 package duke.task;
 
-import duke.Task;
-
 import java.time.LocalDateTime;
 
 /**
- * Represents a duke.Task with a time of event attached
+ * Represents a duke.task.Task with a time of event attached
  */
 
 public class Event extends Task {

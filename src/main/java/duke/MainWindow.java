@@ -26,12 +26,19 @@ public class MainWindow extends AnchorPane {
     private Image userImage = new Image(this.getClass().getResourceAsStream("/images/DaUser.png"));
     private Image dukeImage = new Image(this.getClass().getResourceAsStream("/images/DaDuke.png"));
 
-    // Automatically runs when main window is created
+    /**
+     * Automatically runs when main window is created
+     */
     @FXML
     public void initialize() {
         scrollPane.vvalueProperty().bind(dialogContainer.heightProperty());
     }
 
+    /**
+     * Set Duke reference and show initial message dialog
+     *
+     * @param d Duke object to be set
+     */
     public void setDuke(Duke d) {
         duke = d;
 
